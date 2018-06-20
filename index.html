@@ -3,37 +3,41 @@
 	<head>
 		<title>Construindo formularios</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		</style>
 	</head>
 	<body>
 		<main>
 			<section>
-				<h1>Formulario</h1>
+				<h1>Formulario<img src="formu.png" width="80"></h1>
+
 				<form>
 					<fieldset>
 						<legend>Informações pessoais</legend>
-							Nome:
-							<input type="text" name="nome">
-							Sobrenome:
+							Nome:<br>
+							<input type="text" name="nome"><br>
+							<br>
+							Sobrenome:<br>
 							<input type="text" name="Sobrenome"><br>
 							<br>
-							Data de nascimento:
+							Data de nascimento:<br>
 							<input type="date" name="data de nascimento"><br>
 							<label>
 								<br>
-							  Email:
+							  Email:<br>
 							  <input type="email" name="email" placeholder="nome@exemplo.com"><br>
 							  <br>
-							  Senha:
+							  Senha:<br>
 							  <input type="text" name="password" placeholder="password"><br>
 							</label>
 							<br>
-							Telefone:
+							Telefone:<br>
 							<input type="tel" name="telefone"><br>
 							<br>
 							Endereço:<br>
 							<input type="text" name="Endereço"><br>
 							<br>
-							Data:
+							Data:<br>
 							<input type="date" name="data"><br>
 							<br>
 							Genero:<br>
@@ -44,10 +48,10 @@
 							</label>
 							<br>
 							Filiação:<br>
-							Mãe
+							Mãe<br>
 							<input type="text" name="filiaçao"><br>
 							<br>
-							Pai
+							Pai<br>
 							<input type="text" name="filiaçao"><br>
 							<br>
 							Hobbie:<br>
@@ -68,15 +72,27 @@
 								<input type="checkbox" name="dia" value="outros"> Outros<br>
 							</label>
 							<br>
-
-							<select name="dia">
-							  <option value="Segunda" selected>Segunda</option>
-							  <option value="Sábado">Sábado</option>
-							  <option value="Domingo">Domingo</option>
-							</select>	
-					</fieldset>
+							Religiao:
+							<select name="Religião"> 
+							  <option value="Religião" selected>Religião</option>
+							  <option value="Evangelico">Evangelico</option>
+							  <option value="Catolico">Catolico</option>
+							  <option value="Outros">Outros</option><br>
+							</select>
+							<button name="enviar">
+							  <strong>Enviar</strong>
+							</button>
+						</fieldset>
 				</form>
 			</section>
 		</main>
+		<footer>
+			<textarea name="comentario">Deixe aqui seu comentário</textarea>
+			<p> Criador: Luiz Felipe de Sá Gonçalves </p>
+			<p>Contatos: </p>
+			<a href="https://www.facebook.com/luizfelipe.desagoncalves"><img src="face.png" width="80"></a>
+			<a href="https://github.com/LuizFelipeG2003"><img src="git.png" width="80"></a>
+			<a href="https://www.instagram.com/?hl=pt-br"><img src="insta.png" width="80"></a>
+		</footer>
 	</body>
 </html>

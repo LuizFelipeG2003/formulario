@@ -1,3 +1,67 @@
 body {
-	text-align: center;
+  text-align: center;
+  background-color: orange
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px #333333
+}
+footer {
+  text-align: left;
+}
+input[type=text]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 5px 5px 10px #333333;    
+    -moz-box-shadow: 5px 5px 10px #333333;
+    -webkit-box-shadow: 5px 5px 10px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px
+}
+input[type=date]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 5px 5px 10px #333333;    
+    -moz-box-shadow: 5px 5px 10px #333333;
+    -webkit-box-shadow: 5px 5px 10px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px
+}
+input[type=email]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 5px 5px 10px #333333;    
+    -moz-box-shadow: 5px 5px 10px #333333;
+    -webkit-box-shadow: 5px 5px 10px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px
+}
+input[type=tel]{   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 5px 5px 10px #333333;    
+    -moz-box-shadow: 5px 5px 10px #333333;
+    -webkit-box-shadow: 5px 5px 10px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px
+}
+textarea[name=comentario]{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 5px 5px 10px #333333;    
+    -moz-box-shadow: 5px 5px 10px #333333;
+    -webkit-box-shadow: 5px 5px 10px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width: 450px
 }
